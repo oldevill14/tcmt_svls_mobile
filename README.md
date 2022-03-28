@@ -5,8 +5,8 @@
 ## ใช้งานเบื้องต้น
 
 **ExpansionPanelList**  
-นำไฟล์ทั้งหมดในFor_ExpansionPanelList.zip
-ไปวางทับที่ {flutter path}/lib/src/material
+นำไฟล์ทั้งหมดในFor_ExpansionPanelList.zip  
+ไปวางทับที่ {flutter path}/lib/src/material  
 จากนั้นลบFor_ExpansionPanelListทิ้งได้เลย
 
 **วิธีรัน**  
@@ -19,6 +19,6 @@
 - 'flutter doctor -v'
 - ที่หลัง Flutter version จะมีบอก
 
-- [วิธีเขียนflutterเบื้องต้น](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook](https://flutter.dev/docs/cookbook)
-- [documentation](https://flutter.dev/docs)
+[วิธีเขียนflutterเบื้องต้น](https://flutter.dev/docs/get-started/codelab)
+[Cookbook](https://flutter.dev/docs/cookbook)
+[Documentation](https://flutter.dev/docs)
