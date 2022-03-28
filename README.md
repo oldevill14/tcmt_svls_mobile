@@ -1,22 +1,21 @@
-# my_app
+# tcmt_svls_mobile
 
 A new Flutter project.
-Name:tcmt_svls_mobile
 
-**ExpansionPanelList**
+**ExpansionPanelList**  
 นำไฟล์ทั้งหมดในFor_ExpansionPanelList.zip
 ไปวางทับที่ {flutter path}/lib/src/material
 จากนั้นลบFor_ExpansionPanelListทิ้งได้เลย
 
-วิธีรัน
+**วิธีรัน**  
 - รันผ่านvscode: กดF5
 - รันผ่านterminal: 'flutter run' 
 
 มีปัญหากับตัวflutterให้ใช้คำสั่ง 'flutter doctor'
 
-วิธีหาflutter path  
--'flutter doctor -v'
--ที่หลัง Flutter version จะมีบอก
+**วิธีหาflutter path**  
+- 'flutter doctor -v'
+- ที่หลัง Flutter version จะมีบอก
 ## Getting Started
 
 This project is a starting point for a Flutter application.
