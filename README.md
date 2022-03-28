@@ -1,7 +1,13 @@
 # my_app
 
 A new Flutter project.
+Name:tcmt_svls_mobile
 
+วิธีรัน
+- รันผ่านvscode: กดF5
+- รันผ่านterminal: 'flutter run' 
+
+มีปัญหากับตัวflutterให้ใช้คำสั่ง 'flutter doctor'
 ## Getting Started
 
 This project is a starting point for a Flutter application.
