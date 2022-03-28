@@ -1,6 +1,6 @@
 # tcmt_svls_mobile
 
-![alt text](https://github.com/oldevill14/tcmt_svls_mobile/blob/master/sample.png?raw=true)
+![alt text](https://github.com/oldevill14/tcmt_svls_mobile/blob/master/sample.png)
 ## ใช้งานเบื้องต้น
 
 **ExpansionPanelList**  
