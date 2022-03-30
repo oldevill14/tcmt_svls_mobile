@@ -4,6 +4,9 @@
 
 ## ใช้งานเบื้องต้น
 
+**โคลนมาครั้งแรก**
+ใช้คำสั่ง 'flutter pub get'
+
 **ExpansionPanelList**  
 นำไฟล์ทั้งหมดในFor_ExpansionPanelList.zip  
 ไปวางทับที่ {flutter path}/lib/src/material  
