@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'login/index.dart';
-import 'home/firstpage/first.dart';
 import 'home/index.dart';
-import 'home/secondpage/second.dart';
 import 'forgotpwd/index.dart';
 import 'package:flutter_snake_navigationbar/flutter_snake_navigationbar.dart';
 
@@ -13,7 +11,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

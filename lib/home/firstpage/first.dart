@@ -172,7 +172,7 @@ class _FirstHomePageState extends State<FirstHomePage> {
               borderRadius: BorderRadius.circular(10),
             ),
             child: (Center(
-              child: Column(children: [_buildPanel()]),
+              child: _buildPanel(),
             )),
           ),
         ]),

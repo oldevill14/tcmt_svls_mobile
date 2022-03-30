@@ -157,22 +157,27 @@ class _LoginPageState extends State<LoginPage> {
 }
 
 checkLogin(String email, context) async {
-  final response = await http.post(
-    Uri.parse('http://localhost:3000/auth'),
-    headers: <String, String>{
-      'Content-Type': 'application/json; charset=UTF-8',
-    },
-    body: jsonEncode(<String, String>{
-      'email': email,
-      'password': '',
-    }),
-  );
-  Map<String, dynamic> user = jsonDecode(
-    response.body,
-  );
-  if (user['access_token'] != null) {
-    Navigator.pushNamed(context, '/home');
-  } else {
+  try {
+    final response = await http.post(
+      Uri.parse('http://127.0.0.1:3000/auth'),
+      headers: <String, String>{
+        'Content-Type': 'application/json; charset=UTF-8',
+      },
+      body: jsonEncode(<String, String>{
+        'email': email,
+        'password': '',
+      }),
+    );
+    Map<String, dynamic> user = jsonDecode(
+      response.body,
+    );
+    if (user['access_token'] != null) {
+      Navigator.pushNamed(context, '/home');
+    } else {
+      showDialog(
+          context: context, builder: (BuildContext context) => CustomDialog());
+    }
+  } catch (e) {
     showDialog(
         context: context, builder: (BuildContext context) => CustomDialog());
   }
